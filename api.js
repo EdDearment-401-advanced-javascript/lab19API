@@ -55,7 +55,7 @@ app.use( response => {
 module.exports = {
   server: app,
   start: port => {
-    let PORT = port || process.env.PORT ||3333;
+    let PORT = port || process.env.PORT ||3000;
     app.listen(PORT, () => console.log(`Listening on ${PORT}`));
   },
 };
